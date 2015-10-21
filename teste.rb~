@@ -78,7 +78,7 @@ class Drone
 				elsif aux == "M"
 					 move
 				elsif
-					puts "Comando Inválido!!!"
+					puts "Comando Inválido"
 				end
 		end
 	end

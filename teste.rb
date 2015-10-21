@@ -79,7 +79,7 @@ class Drone
 					 move
 				elsif
 					puts "Comando Inválido"
-				end
+				end 
 		end
 	end
 
