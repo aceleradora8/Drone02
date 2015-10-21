@@ -68,7 +68,7 @@ class Drone
 		end
 	end
 
-	def ler_instrucao(comandos)
+	def ler_instrucao(comandos)  
 		for counter in 0..comandos.size-1
 			aux = comandos.to_s[counter]
 				if aux == "E"
@@ -79,7 +79,7 @@ class Drone
 					 move
 				elsif
 					puts "Comando Inválido"
-				end
+				end 
 		end
 	end
 
